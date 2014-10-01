@@ -1,0 +1,24 @@
+{
+  "name": "cordova-example",
+  "version": "1.0.0",
+  "description": "cordova-example =============== Example to start with [Apache Cordova](http://cordova.apache.org/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arielschiavoni/cordova-example.git"
+  },
+  "author": "Ariel Schiavoni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arielschiavoni/cordova-example/issues"
+  },
+  "homepage": "https://github.com/arielschiavoni/cordova-example",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-jshint": "^1.8.5",
+    "jshint-stylish": "^1.0.0"
+  }
+}

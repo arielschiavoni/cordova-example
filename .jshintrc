@@ -26,6 +26,8 @@
     "beforeEach": false,
     "afterEach": false,
     "inject": false,
-    "spyOn": false
+    "spyOn": false,
+    "Connection": false,
+    "alert": false
   }
 }

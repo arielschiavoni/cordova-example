@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/arielschiavoni/cordova-example",
   "devDependencies": {
+    "cordova": "^3.6.3-0.2.13",
     "gulp": "^3.8.8",
+    "gulp-help": "^1.1.0",
     "gulp-jshint": "^1.8.5",
+    "gulp-load-plugins": "^0.7.0",
     "jshint-stylish": "^1.0.0"
   }
 }

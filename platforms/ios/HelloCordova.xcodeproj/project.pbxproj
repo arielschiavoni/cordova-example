@@ -38,6 +38,9 @@
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		33A7696FDDA942CE912BD8A0 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D95573CE50431EB3F598AC /* CDVLogger.m */; };
+		0AEF358838644EEE8FC13987 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E6E395F7624E6BBE40DC12 /* CDVConnection.m */; };
+		8A9E28A2264B4F1892C27F07 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A58122300423C95051AAF /* CDVReachability.m */; };
+		6FA7EB8798FB41FCAA58088E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FCDE9520E1419397FFE83C /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +106,11 @@
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = HelloCordova/config.xml; sourceTree = "<group>"; };
 		55D95573CE50431EB3F598AC /* CDVLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLogger.m"; path = "org.apache.cordova.console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		E6224FBD6DA24B3F91A81EB5 /* CDVLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLogger.h"; path = "org.apache.cordova.console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		23E6E395F7624E6BBE40DC12 /* CDVConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVConnection.m"; path = "org.apache.cordova.network-information/CDVConnection.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		841A58122300423C95051AAF /* CDVReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVReachability.m"; path = "org.apache.cordova.network-information/CDVReachability.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4024D7927258419D899FA020 /* CDVConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVConnection.h"; path = "org.apache.cordova.network-information/CDVConnection.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7F6179A548C243E4A9E202C7 /* CDVReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVReachability.h"; path = "org.apache.cordova.network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D5FCDE9520E1419397FFE83C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,7 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				6FA7EB8798FB41FCAA58088E /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +215,7 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				D5FCDE9520E1419397FFE83C /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,6 +233,10 @@
 			children = (
 				55D95573CE50431EB3F598AC /* CDVLogger.m */,
 				E6224FBD6DA24B3F91A81EB5 /* CDVLogger.h */,
+				23E6E395F7624E6BBE40DC12 /* CDVConnection.m */,
+				841A58122300423C95051AAF /* CDVReachability.m */,
+				4024D7927258419D899FA020 /* CDVConnection.h */,
+				7F6179A548C243E4A9E202C7 /* CDVReachability.h */,
 			);
 			name = Plugins;
 			path = HelloCordova/Plugins;
@@ -418,6 +432,8 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				33A7696FDDA942CE912BD8A0 /* CDVLogger.m in Sources */,
+				0AEF358838644EEE8FC13987 /* CDVConnection.m in Sources */,
+				8A9E28A2264B4F1892C27F07 /* CDVReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
